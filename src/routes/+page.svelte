@@ -1,2 +1,22 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	//import {getAuth} from 'firebase/auth'
+	//import {onMount} from 'svelte'
+	import { fade, fly } from 'svelte/transition';
+	//import ArticleCard from '$comps/slides/slide_1.svelte';
+	//export let data;
+	//import {onMount} from 'svelte'
+	//let products = data.arrs; //.all
+
+	let counter = 0;
+	//console.log('page.svelte', data.string);
+</script>
+
+<!-- <ArticleCard {products} {counter} /> -->
+
+<svelte:head>
+	<title>SvelteFire: Home</title>
+</svelte:head>
+
+<style lang="stylus">
+
+</style>
